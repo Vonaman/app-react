@@ -1,5 +1,6 @@
 import Counter from './Counter'
 import Products from './Products'
+import ProductDetail from './ProductDetail'
 import Form from './Form'
 import Home from './Home'
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products/:productId" element={<ProductDetail />} />
         <Route path="/form" element={<Form />} />
       </Routes>
     </BrowserRouter>
