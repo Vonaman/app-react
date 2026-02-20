@@ -1,0 +1,1 @@
+//structure de nos données, les fonctions pour les manipuler, et les appels à l'API 
